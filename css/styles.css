@@ -1,0 +1,86 @@
+body{
+	font-size: 16px;
+	background-color: #FFFFFF;
+}
+
+
+#topheader {
+	background-color: #F9CCAC;
+}
+
+#topheader h1{
+	color: #c08f00;
+	font-family: Georgia, serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	margin: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#topheader a{
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: #E0876A;
+}
+
+.navbar-nav {
+	margin: auto;
+}
+
+.navbar-nav a {
+	color: #FFFFFF;
+	font-family: Georgia; serif;
+	font-size: 1.1em;
+	margin-left: 20px;
+}
+
+.navbar-nav a:hover{
+	color: #c08f00;
+	background-color: #F9CCAC;
+}
+
+
+#firstblock {
+	background-color: #FFF2DF;
+}
+
+.jumbotron {
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.9) 100%), url("../images/caslte_blois2-min.jpg");
+	background-size: cover;
+}
+
+.jumbotron .container{
+	margin-left: 5%;
+	float: left;
+	width: 60%;
+	font-family: Georgia, serif;
+}
+.jumbotron .container .display-4 {
+	font-size: 2.8em;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+.jumbotron .container .btn {
+	background-color: #E0876A;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+.jumbotron .container .btn:hover {
+	background-color: #F9CCAC;
+	color: #c08f00;
+}
+
+.jumbotron .bookcover img {
+	width: 20%;
+}
+
+
+
+
