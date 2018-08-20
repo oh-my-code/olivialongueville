@@ -1,15 +1,16 @@
 body{
 	font-size: 16px;
-	background-color: #FFFFFF;
+	background-color: #FFF2E0;
 }
 
 
 #topheader {
-	background-color: #F9CCAC;
+	background-color: #317E93;
 }
 
 #topheader h1{
-	color: #c08f00;
+	color: #D0BA8F;
+	font-size: 3rem;
 	font-family: Georgia, serif;
 	text-align: center;
 	text-transform: uppercase;
@@ -23,30 +24,64 @@ body{
 	text-decoration: none;
 }
 
+
+@media (max-width: 768px) { 
+#topheader h1{
+  font-size: 5vw;
+}
+}
+
+
 .navbar {
-	background-color: #E0876A;
+	background-color: #D0BA8F;
+	color: #FFFFFF;
 }
 
 .navbar-nav {
 	margin: auto;
+	color: #FFFFFF;
 }
 
 .navbar-nav a {
 	color: #FFFFFF;
 	font-family: Georgia; serif;
 	font-size: 1.1em;
+
 	margin-left: 20px;
+	text-transform: uppercase;
 }
 
 .navbar-nav a:hover{
 	color: #c08f00;
-	background-color: #F9CCAC;
+	background-color: ;
 }
 
 
 #firstblock {
 	background-color: #FFF2DF;
 }
+
+
+
+.card-group .card {
+	background-color: #FFF2E0;
+	border: none;
+	padding: 2%;
+}
+.card-group .card .card-img-top {
+	width: 65%;
+	margin: auto;
+	box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-group .card .card-title {
+	color: #317E93;
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 2rem;
+	text-align: center;
+}
+
+
 
 .jumbotron {
 	background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.9) 100%), url("../images/caslte_blois2-min.jpg");
@@ -79,6 +114,7 @@ body{
 
 .jumbotron .bookcover img {
 	width: 20%;
+	box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
