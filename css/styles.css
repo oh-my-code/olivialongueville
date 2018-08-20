@@ -9,7 +9,7 @@ body{
 }
 
 #topheader h1{
-	color: #D0BA8F;
+	color: #d9b44a; #D0BA8F;
 	font-size: 3rem;
 	font-family: Georgia, serif;
 	text-align: center;
@@ -80,6 +80,33 @@ body{
 	font-size: 2rem;
 	text-align: center;
 }
+
+
+
+
+.container-fluid {
+	background-color: #317E93;
+}
+.container-fluid .container-image {
+	width: 80%;
+	margin: 10%;
+}
+.container-fluid .col-md-7 {
+	margin: auto;
+	padding-right: 5%;
+}
+.container-fluid .col-md-7 h1{
+	color: #d9b44a;
+	font-size: 3.5rem;
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+.container-fluid .col-md-7 p{
+	color: #ffffff;
+	font-size: 1.2rem;
+	font-family: Georgia, serif;
+}
+
 
 
 
