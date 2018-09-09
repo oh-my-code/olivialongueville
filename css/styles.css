@@ -6,12 +6,16 @@ body{
 
 #topheader {
 	background-color: #317E93;
+	background-image: url("../images/blue_baroque-min.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 #topheader h1{
 	color: #d9b44a; #D0BA8F;
 	font-size: 3rem;
-	font-family: Georgia, serif;
+	font-family: 'Neuton', serif;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
@@ -25,18 +29,18 @@ body{
 }
 
 
+/* @MEDIA */
 @media (max-width: 768px) { 
 #topheader h1{
   font-size: 5vw;
 }
 }
 
-
+/* MENU NAVBAR */
 .navbar {
 	background-color: #D0BA8F;
 	color: #FFFFFF;
 }
-
 .navbar-nav {
 	margin: auto;
 	color: #FFFFFF;
@@ -44,17 +48,16 @@ body{
 
 .navbar-nav a {
 	color: #FFFFFF;
-	font-family: Georgia; serif;
+	font-family: 'PT Serif'; serif;
 	font-size: 1.1em;
-
 	margin-left: 20px;
 	text-transform: uppercase;
 }
-
 .navbar-nav a:hover{
 	color: #c08f00;
 	background-color: ;
 }
+
 
 
 #firstblock {
@@ -62,7 +65,7 @@ body{
 }
 
 
-
+/* BLOCK OF THREE CARDS */
 .card-group .card {
 	background-color: #FFF2E0;
 	border: none;
@@ -75,20 +78,26 @@ body{
 }
 .card-group .card .card-title {
 	color: #317E93;
-	font-family: Georgia, serif;
+	font-family: 'PT Serif', serif;
 	font-style: italic;
-	font-size: 2rem;
+	font-size: 1.7rem;
 	text-align: center;
+}
+.card-group .card .card-text {
+	color: ;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.2rem;
 }
 
 
 
 
+/* CARD image + text */
 .container-fluid {
 	background-color: #317E93;
 }
 .container-fluid .container-image {
-	width: 80%;
+	width: 70%;
 	margin: 10%;
 }
 .container-fluid .col-md-7 {
@@ -98,15 +107,79 @@ body{
 .container-fluid .col-md-7 h1{
 	color: #d9b44a;
 	font-size: 3.5rem;
-	font-family: Georgia, serif;
+	font-family: 'PT Serif', serif;
 	font-style: italic;
 }
 .container-fluid .col-md-7 p{
 	color: #ffffff;
 	font-size: 1.2rem;
-	font-family: Georgia, serif;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
+
+/* CARD image ON THE RIGHT + text ON THE LEFT */
+.imgRight{
+	background-color: #FFF2E0;
+}
+.container-fluid .container-image .imgRight{
+	width: 60%;
+	margin: 5%;
+}
+#textLeft{
+	margin: auto;
+	padding-left: 5%;
+}
+#textLeft h1{
+	color: #d9b44a;
+	font-size: 3.5rem;
+	font-family: 'PT Serif', serif;
+	font-style: italic;
+}
+#textLeft p {
+	color: black;
+	font-size: 1.2rem;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+
+
+
+/* PRAISE */
+.praise {
+	background-color: #FFF2E0;
+	padding: 2%;
+}
+.praise h1{
+	color: #d9b44a;
+	font-size: 2rem;
+	font-family: 'PT Serif', serif;
+	text-align: center;
+}
+.praisetext p{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	margin: 3%;
+	color:#317E93;
+	text-align: center;	
+	quotes: '"' '"' "'" "'";
+}
+.praisetext p:before {
+  content: open-quote;
+}
+.praisetext p:after {
+  content: close-quote;
+}
+.praise h2{
+	color: #d9b44a;
+	font-size: 1.5rem;
+	font-family: 'PT Serif', serif;
+	text-align: center;
+	margin-top: -2%;
+}
+
+/* end of PRAISE */
 
 
 
@@ -119,7 +192,7 @@ body{
 	margin-left: 5%;
 	float: left;
 	width: 60%;
-	font-family: Georgia, serif;
+	font-family: 'PT Serif', serif;
 }
 .jumbotron .container .display-4 {
 	font-size: 2.8em;
